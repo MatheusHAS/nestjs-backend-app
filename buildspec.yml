@@ -23,6 +23,6 @@ phases:
 # Include only the files required for your application to run.
 artifacts:
   files:
-    - dist/*
+    - dist/**/*
+    - node_modules/**/*
     - package.json
-    - node_modules/*
